@@ -1,0 +1,20 @@
+site_name: Lens Service Notes
+site_description: Repair and service guides for camera lenses
+site_author: Steven Kasapi
+
+theme:
+  name: material
+  palette:
+    scheme: default
+    primary: black
+    accent: indigo
+  features:
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+
+docs_dir: docs
+site_dir: site
+
+plugins:
+  - search
