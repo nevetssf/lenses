@@ -10,6 +10,7 @@ theme:
     accent: indigo
   features:
     - navigation.sections
+    - navigation.tabs
     - navigation.top
     - search.highlight
     - content.tooltips
