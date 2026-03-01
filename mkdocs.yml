@@ -17,6 +17,16 @@ theme:
 docs_dir: docs
 site_dir: site
 
+nav:
+  - Home: index.md
+  - Canon:
+    - FD 50mm f/1.4 SSC: Canon/fd-50mm-f1.4-ssc.md
+  - Leica:
+    - Summar 50mm f/2: Leica/summar-50mm-f2.md
+  - Nikon:
+    - Nikkor 50mm f/1.4 AIS: Nikon/nikkor-50mm-f1.4-ais.md
+  - Contact: contact.md
+
 plugins:
   - search
 
