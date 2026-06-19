@@ -1,6 +1,12 @@
 # Canon 100mm f/2 LTM
 
-A fast, medium-telephoto rangefinder lens made by Canon for the Leica Thread Mount (M39 × 1mm screw mount). Introduced January 1959, produced through 1973 in three cosmetically distinct variants. Notable for its large maximum aperture and Double-Gauss optical design. Common service issues are gummy or hardened helicoid grease causing stiff focus, and haze or coating separation on internal elements.
+I bougth this lens after consulation with Claude Opus 4.8. It pointed out that I had no long focal length lenses in my Canon LTM collection, so I figured I'd go for it.
+
+This is a little longer than I'd normally shoot, and because it's 100mm instead of the normal 90 or 135, it doesn't match any normal Leica M framelines. As often as not, I adapt lenses to mirrorless cameras, most recently the Leica EV-1, so not a big problem. An anyway, I tend to use framelines as a rough guide, so I've been using it on my M10.
+
+Cosmetically the lens was in great condition, but it had some nasty haze on an internal element, bad enough that the images were hazey messes. I'm all for a vintage look, but not when it's just caused by damage. 
+
+The aperture blades were in decent shape but look a tad rusty, which is never good for an aperture. 
 
 ---
 
@@ -22,11 +28,11 @@ A fast, medium-telephoto rangefinder lens made by Canon for the Leica Thread Mou
 ## Optical Design
 
 There isn't a lot of information about this lens, but I did fine one writeup [Pebble Place](https://www.pebbleplace.com/reviews/rangefinder/canon_100mm_serenar/index.html). 
-He includes trh design of the lens, which is a remarkably symmetic Gaussian design.
+He includes the design of the lens, which is a remarkably symmetic Gaussian design with 6 elements in 4 groups.
 
 ![Optical design from Canon's US patent](images/100mm-f2-ltm/Canon_100_RF_Formula.jpg). 
 
-This breaks down as a schematic diagram:
+This breaks down as a schematic diagram, which I generated for my own edificaiton. 
 
 ![Optical design diagram](images/100mm-f2-ltm/optical-design.svg)
 
@@ -34,16 +40,21 @@ This breaks down as a schematic diagram:
 
 ## Tools & Materials
 
+Lenses of this vintage mostly involved flathead screws, which are a pain to deal with. Even worse, some of them are made of brass, which makes it extra-easy to destroy the slot in the screw.
+
+My first piece of advice is to use screwdrivers that fit the slot in the screw very well, both in length and width. Fortunately my Vessel set of screwdrivers worked well, almsot to the point that it made me wonder if Vessel (a Japanese company) made them to match the screws of Japanese lenses of this vintage. 
+
+My second piece advice is to use rubber tools instead of lens spanners as much as possible. Lens spanners are almsot universally instruments of destruction. Get a good set of rubber gloves and a set or two of rubber lens cones of various sizes and use the whenenver possible. Lens spanners should be a last resort, and an act of desparation. 
+
 - Small flathead screwdrivers (#000, #00)
-- Spanner wrench (adjustable, for retaining rings)
 - Rubber friction tools or Rotatool for filter rings
 - Lens tissue and sensor swabs
-- 99% isopropyl alcohol
-- Lighter fluid (Ronsonol) — for dissolving old grease
-- Helicoid grease (e.g. Molykote EM-30L or Nyogel 767A)
-- Cotton gloves
-- Cleaning solution (Eclipse or equivalent)
-- Loupe or magnifier for element inspection
+- 99.9% isopropyl alcohol
+- Lighter fluid (naptha) — for dissolving old grease and cleaning evaporated grease
+- Helicoid grease (e.g. Molykote EM-30L, EM-60L, or Helimax XP)
+- Rubber gloves
+- Cleaning solution (Eclipse and ROR)
+- Loupe or magnifier for element inspection (my favorite: [Belomo aks Trilomo](https://belomostore.com/belomo-10x-triplet-loupe.html/)
 
 ---
 
@@ -53,7 +64,13 @@ This breaks down as a schematic diagram:
 
 Before disassembly, examine the lens wide open against a light source.
 
-My copy had pretty bad haze near the front of the lens. We'll see as the service progresses that it was on the surface closest to the aperture. I'm not sure why, but often if there are evaporated oil and grease deposits on a lens, they happen at this surface. 
+My copy had pretty bad haze near the front of the lens. 
+
+There are two locations for haze: on one of the surfaces exposed to air, and the surface sandwiched between a doublet.
+
+Haze on a surface has a fighting chance of being removable. Haze on the interface inside a double means the lens has to be separted, cleaned, and re-bonded, all of which is possible but very difficult, and requires special equipment. 
+
+We'll see as the service progresses that it was on the surface closest to the aperture. I could only be sure after I'd opened the lense and inspected the elements. I'm not sure why, but often if there are evaporated oil and grease deposits on a lens, they happen at this surface. 
 
 ![Lens assessment](images/100mm-f2-ltm/IMG_7366.jpeg)
 
@@ -61,13 +78,13 @@ The lens itself was in pretty decent condition, given its age.
 
 ![Lens assessment](images/100mm-f2-ltm/IMG_7367.jpeg)
 
-Looking through the lens, there was pretty strong haze on one surface. Just looking through the lens I couldn't tell if it was on a surface, or if the haze was inside a doublet. 
+Looking through the lens, there was pretty strong haze somewhere inside th lens. Just looking through the lens I couldn't tell if it was on a surface, or if the haze was inside a doublet. 
 
 ---
 
 ### Step 2: Unscrew the lens block from the focussing body
 
-I used very sticky rubber gloves to unscrew the lens body from the helicoid (aka focussing) assembly. Mine was in pretty tight, but with firm force it came free. There is no set screw or lock ring holding it in place. 
+I used very sticky rubber gloves to unscrew the lens body from the helicoid (aka focussing) assembly. Mine was in pretty tight, but with firm force it came free. There is no set screw or lock ring holding it in place, so use firm force and believe in yourself.
 
 ![The optics block with aperture removed from the helicoid assembly](images/100mm-f2-ltm/IMG_7370.jpeg)
 
@@ -81,11 +98,25 @@ Start by removing the set screw in the front part of the lens. I used a 1.2mm Ve
 
 With the screw removed, the front part of the lense block will unscrew from the rest of the block. With the front and back removed, you'll be left with just the aperture assembly.
 
-~[The front and rear components of the block removed](images/100mm-f2-ltm/IMG_7372.jpeg
+![The front and rear components of the block removed](images/100mm-f2-ltm/IMG_7372.jpeg
 
-## Step 4: Really dealing with the haze
+### Step 4: Really dealing with the haze
 
-Reluctantly, I preapred to polish off the haze, which also meant polishing off the a bit of the surface of the lens. 
+Reluctantly, I prepared to polish off the haze, which also meant polishing off the a bit of the surface of the lens. This was inevitable.
+
+There are a few services that can polish and re-coat a lens. I've sent one lens to a guy in Ukraine who did an excellent job re-coating the front element of a 50mm Elmar, with very haze to the haze pattern on this lens. Unfortunately, I wanted to finish this lens in a weekend, and it took several months to send the lens to Jaroslav, get it coated, and receive it back. There's also the possibility that the lens will get lost in transit, so I decided to use my home grown techniques for polishing the lens, developed over years of accidentally destroying lenses.
+
+The main trick, I learned, is to create a polishing surface which matches the curvature of the lens surface being polished, and ideally about the same size, and then rotate the polishing surface gently but firmly with a polishing agent. 
+
+To create the polshing surface, I put a thin lens polshing cloth on the lens surface, then used a curing epoxy (in my case Sugru, which cures with humidition, but you can also use a UV-curing putty if you want to speed things up). I pushed the puttin into the lens to match the surface of the lens, then let the whole thing cure for 24 hours (a UV cure would be faster, of course). I then trimmed the polishing cloth to over-hang the now-curved surface of the hardened epoxy putty. The polishing cloth by this point was reasonably bonded to the epoxiy, forming a soft surfaced that matched the lens curvature. 
+
+I used 3 grades of cerium oxide, the same material used to polish scratches in car windshields. The coarsest was 3.5$\mu$m, then 2.5$\mu$m, and finally $1$\mu$m, all purchased on Amazon. I could have dipped the cloth directly in the polishing compound but found it easer to soak a bit of thick lens cleaning tissue (Pec pads work well) in the preapred polishing compound, then placed it on the lens cloth/epoxy putty tool. 
+
+And then I polished, trying to rotate the polishing tool to keep keep even pressure on the lens surface. 
+
+It took about an hour using the 3.5$\mu$m compound. I used my Belomo loupe to inspect the surface. By the way, the surface looked pockmarked, with an evenly-distrubted surface of raised dots, kind of like the condensation the outside glass of a cold drink. This further convinced me that I was dealing with hardened oil or or grease that somehow deposited on the lens. 
+
+
 
 ---
 
