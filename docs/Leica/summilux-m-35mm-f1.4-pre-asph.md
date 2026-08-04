@@ -87,11 +87,7 @@ The focussing ring will slide out once the screws are removed.
 
 ![](images/summilux-m-35mm-f1.4-pre-asph/IMG_7223.jpeg)
 
-![](images/summilux-m-35mm-f1.4-pre-asph/IMG_7213.jpeg)
-
-![](images/summilux-m-35mm-f1.4-pre-asph/IMG_7214.jpeg)
-
-![](images/summilux-m-35mm-f1.4-pre-asph/IMG_7215.jpeg)
+Take careful notes or pictures of the orientation of the focussing ring. 
 
 ![](images/summilux-m-35mm-f1.4-pre-asph/IMG_7224.jpeg)
 
@@ -120,3 +116,12 @@ The focussing ring will slide out once the screws are removed.
 ![](images/summilux-m-35mm-f1.4-pre-asph/IMG_7434.jpeg)
 
 ![](images/summilux-m-35mm-f1.4-pre-asph/IMG_7435.jpeg)
+
+Other images, not sure what I'm showing here.
+
+![](images/summilux-m-35mm-f1.4-pre-asph/IMG_7213.jpeg)
+
+![](images/summilux-m-35mm-f1.4-pre-asph/IMG_7214.jpeg)
+
+![](images/summilux-m-35mm-f1.4-pre-asph/IMG_7215.jpeg)
+
