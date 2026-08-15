@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="220" viewBox="0 0 760 220">
+  <defs>
+    <marker id="arrowhead" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto">
+      <polygon points="0 0, 7 3.5, 0 7" fill="#888"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="760" height="220" fill="#ffffff"/>
+
+  <!-- Title -->
+  <text x="380" y="18" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#222" text-anchor="middle">Canon 100mm f/2 LTM — Optical Design</text>
+  <text x="380" y="34" font-family="system-ui, sans-serif" font-size="11" fill="#666" text-anchor="middle">Double-Gauss · 6 elements in 4 groups</text>
+
+  <!-- Optical axis -->
+  <line x1="60" y1="120" x2="700" y2="120" stroke="#bbb" stroke-width="0.8" stroke-dasharray="5,4"/>
+
+  <!-- Incoming light arrow -->
+  <line x1="68" y1="120" x2="155" y2="120" stroke="#888" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+  <text x="68" y="113" font-family="system-ui, sans-serif" font-size="10" fill="#888">Light</text>
+
+  <!-- ── E1: biconvex (xl=215 xr=243 h=46 axis=120) ── -->
+  <!-- left surface: convex left, control at 195 (20px left) -->
+  <!-- right surface: convex right, control at 257 (14px right) -->
+  <path d="M 215 74 Q 195 120 215 166 L 243 166 Q 257 120 243 74 Z"
+        fill="#d8eaf8" stroke="#3a5a80" stroke-width="1.5"/>
+
+  <!-- ── E2: front doublet positive (xl=285 xr=311 h=52) ── -->
+  <!-- left surface: convex left, control at 269 (16px left) -->
+  <!-- right surface: cemented, slightly convex right, control at 317 (6px right) -->
+  <path d="M 285 68 Q 269 120 285 172 L 311 172 Q 317 120 311 68 Z"
+        fill="#d8eaf8" stroke="#3a5a80" stroke-width="1.5"/>
+
+  <!-- ── E3: front doublet negative (xl=311 xr=343 h=52) ── -->
+  <!-- left surface: cemented (same shape as E2 right), control at 317 -->
+  <!-- right surface: strongly concave inward, control at 323 (20px left of 343) -->
+  <path d="M 311 68 Q 317 120 311 172 L 343 172 Q 323 120 343 68 Z"
+        fill="#cce0f0" stroke="#3a5a80" stroke-width="1.5"/>
+
+  <!-- Cemented surface E2/E3 -->
+  <line x1="311" y1="68" x2="311" y2="172" stroke="#c86020" stroke-width="1.2" stroke-dasharray="3,3"/>
+
+  <!-- ── Aperture stop at x=380 ── -->
+  <line x1="380" y1="78" x2="380" y2="108" stroke="#333" stroke-width="2"/>
+  <line x1="380" y1="132" x2="380" y2="162" stroke="#333" stroke-width="2"/>
+  <line x1="373" y1="108" x2="387" y2="108" stroke="#333" stroke-width="2"/>
+  <line x1="373" y1="132" x2="387" y2="132" stroke="#333" stroke-width="2"/>
+
+  <!-- ── E4: rear doublet negative (xl=417 xr=449 h=52) ── -->
+  <!-- left surface: strongly concave inward, control at 437 (20px right of 417) -->
+  <!-- right surface: cemented, slightly concave, control at 443 (6px left of 449) -->
+  <path d="M 417 68 Q 437 120 417 172 L 449 172 Q 443 120 449 68 Z"
+        fill="#cce0f0" stroke="#3a5a80" stroke-width="1.5"/>
+
+  <!-- ── E5: rear doublet positive (xl=449 xr=475 h=52) ── -->
+  <!-- left surface: cemented (same as E4 right), control at 443 -->
+  <!-- right surface: convex right, control at 491 (16px right of 475) -->
+  <path d="M 449 68 Q 443 120 449 172 L 475 172 Q 491 120 475 68 Z"
+        fill="#d8eaf8" stroke="#3a5a80" stroke-width="1.5"/>
+
+  <!-- Cemented surface E4/E5 -->
+  <line x1="449" y1="68" x2="449" y2="172" stroke="#c86020" stroke-width="1.2" stroke-dasharray="3,3"/>
+
+  <!-- ── E6: biconvex mirror of E1 (xl=517 xr=545 h=46) ── -->
+  <!-- left surface: convex left, control at 503 (14px left) -->
+  <!-- right surface: convex right, control at 565 (20px right) -->
+  <path d="M 517 74 Q 503 120 517 166 L 545 166 Q 565 120 545 74 Z"
+        fill="#d8eaf8" stroke="#3a5a80" stroke-width="1.5"/>
+
+  <!-- ── Element labels above ── -->
+  <text x="229" y="62" font-family="system-ui, sans-serif" font-size="10" fill="#446" text-anchor="middle">E1</text>
+  <text x="297" y="55" font-family="system-ui, sans-serif" font-size="10" fill="#446" text-anchor="middle">E2</text>
+  <text x="327" y="55" font-family="system-ui, sans-serif" font-size="10" fill="#446" text-anchor="middle">E3</text>
+  <text x="433" y="55" font-family="system-ui, sans-serif" font-size="10" fill="#446" text-anchor="middle">E4</text>
+  <text x="462" y="55" font-family="system-ui, sans-serif" font-size="10" fill="#446" text-anchor="middle">E5</text>
+  <text x="531" y="62" font-family="system-ui, sans-serif" font-size="10" fill="#446" text-anchor="middle">E6</text>
+
+  <!-- ── Group labels below ── -->
+  <line x1="229" y1="167" x2="229" y2="188" stroke="#aaa" stroke-width="0.8"/>
+  <text x="229" y="200" font-family="system-ui, sans-serif" font-size="11" fill="#555" text-anchor="middle">G1</text>
+
+  <line x1="314" y1="173" x2="314" y2="188" stroke="#aaa" stroke-width="0.8"/>
+  <text x="314" y="200" font-family="system-ui, sans-serif" font-size="11" fill="#555" text-anchor="middle">G2</text>
+
+  <line x1="380" y1="163" x2="380" y2="188" stroke="#aaa" stroke-width="0.8"/>
+  <text x="380" y="200" font-family="system-ui, sans-serif" font-size="10" fill="#555" text-anchor="middle">Stop</text>
+
+  <line x1="446" y1="173" x2="446" y2="188" stroke="#aaa" stroke-width="0.8"/>
+  <text x="446" y="200" font-family="system-ui, sans-serif" font-size="11" fill="#555" text-anchor="middle">G3</text>
+
+  <line x1="531" y1="167" x2="531" y2="188" stroke="#aaa" stroke-width="0.8"/>
+  <text x="531" y="200" font-family="system-ui, sans-serif" font-size="11" fill="#555" text-anchor="middle">G4</text>
+
+  <!-- Cemented surface legend -->
+  <line x1="568" y1="212" x2="590" y2="212" stroke="#c86020" stroke-width="1.2" stroke-dasharray="3,3"/>
+  <text x="595" y="215" font-family="system-ui, sans-serif" font-size="10" fill="#888">cemented surface</text>
+</svg>
