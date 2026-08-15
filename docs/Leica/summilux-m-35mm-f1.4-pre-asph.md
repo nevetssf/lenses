@@ -105,6 +105,8 @@ Take careful notes or pictures of the orientation of the focussing ring.
 
 ![](images/summilux-m-35mm-f1.4-pre-asph/IMG_7231.jpeg)
 
+Measure the height of the helicoid assembly. We put the assembly at infinity before removing the outer rings. When we've cleaned and re-assembled, we want to make sure the overall height is correct. 
+
 ![](images/summilux-m-35mm-f1.4-pre-asph/IMG_7232.jpeg)
 
 ![](images/summilux-m-35mm-f1.4-pre-asph/IMG_7233.jpeg)
